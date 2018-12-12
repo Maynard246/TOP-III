@@ -131,6 +131,7 @@ nav a:active {
 
 #nav:checked~nav {
 	max-height: 1500px;
+	background-color: black;
 }
 
 nav li:before {
@@ -177,15 +178,16 @@ nav li:before {
 .company {
 	display: flex;
 	flex-flow: row wrap;
-	padding: 20px 45px;
+	justify-content: center;
+	margin-bottom:  40px;
 
 }
 
 .plat {
 	transition: 1s;
 	height: 200px;
-	width: 350px;
-	padding-top: -20px;
+	width: 320px;
+
 	text-align: center;
 }
 
@@ -195,7 +197,7 @@ nav li:before {
 }
 
 .plat p {
-	text-align: justify;
+	text-align:center;
 	padding: 0px 40px;
 	color: aliceblue;
 	font-family: 'Open Sans', sans-serif;
@@ -258,11 +260,11 @@ nav li:before {
 
 .image {
 	overflow: hidden;
-	width: 300px;
-	height: 300px;
-	margin-left: 25px;
-	margin-right: 18px;
+	width: 270px;
+	height: 250px;
+	margin-left: 10px;
 	transition: 3s;
+
 }
 
 .image img {
@@ -279,18 +281,22 @@ nav li:before {
 }
 
 .imagetext {
-	width: 200;
-	height: 500px;
+	width: 290px;
+	height: 460px;
+	margin-left: 10px;
+	text-align: center;
+
+	
 }
 
 .imagetext h1 {
-	padding: 0px 0px;
-	font-size: 29px;
+	padding: 10px 0px;
+	font-size: 20px;
 	text-align: center;
 }
 
 .imagetext h2 {
-	margin-top: 20px;
+	margin-top: 5px;
 	text-align: center;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	color: red
@@ -347,7 +353,7 @@ footer h5 {
 	}
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1300px) {
 	header {
 		background: rgba(0, 0, 0);
 	}

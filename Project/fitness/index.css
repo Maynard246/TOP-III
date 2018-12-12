@@ -220,14 +220,13 @@ nav li:before {
 .write {
 	display: flex;
 	flex-flow: row wrap;
-	text-align: left;
+	justify-content: space-around;
 }
 
 .list {
 	transition: 1s;
 	height: 200px;
-	width: 400px;
-	margin-left: 5%;
+	width: 370px;
 	text-align: center;
 	transition: .5s;
 }
@@ -262,15 +261,14 @@ nav li:before {
 .write2 {
 	display: flex;
 	flex-flow: row wrap;
-	text-align: left;
+	justify-content: space-around;
 	margin-top: 100px;
 }
 
 .list2 {
 	transition: .5s;
 	height: 200px;
-	width: 400px;
-	margin-left: 5%;
+	width: 370px;
 	text-align: center;
 }
 
@@ -390,7 +388,6 @@ nav li:before {
 	transition: 2s;
 }
 
-
 .secondfour {
 	width: 25%;
 }
@@ -430,6 +427,7 @@ nav li:before {
 	padding-bottom: 50px;
 	transition: .8s
 }
+
 #fade-right {
 	margin-right:50%;
 	transition: 2s;

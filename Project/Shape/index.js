@@ -43,12 +43,12 @@ $(window).scroll(function(){
  
  });
  $(window).scroll(function(){
-    if ($(window).scrollTop() > 2050) {
-        $('#contact').addClass('active');
+    if ($(window).scrollTop() > 2040) {
+        $('#sale').addClass('active');
         $('#studio').removeClass('active');
     }
     else {
-        $('#contact').removeClass('active');
+        $('#sale').removeClass('active');
  
     }
  

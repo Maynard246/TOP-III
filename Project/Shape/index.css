@@ -103,6 +103,7 @@ nav a:active {
 
 #nav:checked~nav {
 	max-height: 900px;
+	background-color: black;
 }
 
 nav li:before {
@@ -167,10 +168,18 @@ nav li:before {
 }
 
 .offer {
-	height: 650px;
+	padding-top: 20px;
+	height: 560px;
 	background-color: rgb(231, 60, 60);
 }
 
+.offer h2 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: 600;
+}
 .offer h1 {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: white;
@@ -191,19 +200,22 @@ nav li:before {
 .picture {
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	flex-flow: row wrap;
 }
 
 .one {
-	width: 370px;
+	width: 400px;
 	height: 200px;
 	border: 1px solid rgb(250, 247, 247);
 	overflow: hidden;
+	margin-left:10px;
 }
 
 .one img {
 	width: 100%;
+	transition: transform 2s, opacity 2s;
+	transition: transform 2s, opacity 2s;
 }
 
 .one img:hover {
@@ -213,8 +225,8 @@ nav li:before {
 
 .text {
 	margin-left: -1px;
-	margin-top: -50px;
-	width: 370px;
+	margin-top: -70px;
+	width: 400px;
 	height: 60px;
 	border: 1px solid white;
 	position: absolute;
@@ -227,8 +239,8 @@ nav li:before {
 
 .paragraph {
 	margin-left: -1px;
-	margin-top: 0px;
-	width: 370px;
+	margin-top: -10px;
+	width: 400px;
 	height: 115px;
 	border: 1px solid white;
 	border-top: none;
@@ -245,7 +257,7 @@ nav li:before {
 }
 
 .services {
-	padding-bottom: 90px;
+	padding-bottom: 50px;
 	background-color: #191c1f;
 }
 
@@ -253,7 +265,7 @@ nav li:before {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: white;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 30px;
 	font-weight: 600;
 }
 
@@ -269,14 +281,15 @@ nav li:before {
 .write {
 	display: flex;
 	flex-flow: row wrap;
-	text-align: left;
+
+	justify-content: space-around;
 }
 
 .list {
 	transition: 1s;
 	height: 200px;
-	width: 400px;
-	margin-left: 5%;
+	width: 370px;
+
 	text-align: center;
 }
 
@@ -309,15 +322,14 @@ nav li:before {
 .write2 {
 	display: flex;
 	flex-flow: row wrap;
-	text-align: left;
+	justify-content: space-around;
 	margin-top: 100px;
 }
 
 .list2 {
 	transition: 3s;
 	height: 200px;
-	width: 400px;
-	margin-left: 5%;
+	width: 370px;
 	text-align: center;
 }
 
@@ -372,17 +384,18 @@ nav li:before {
 .container {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .studiotxt {
 	height: 350px;
-	width: 650px;
+	width: 640px;
 }
 
 .studiotxt p {
 	text-align: left;
 	padding: 0px;
+	width: 580px;
 }
 
 .studiotxt ul {
@@ -426,6 +439,9 @@ nav li:before {
 .studioimg img {
 	width: 100%;
 	height: 100%;
+	margin-top: 10px;
+	transition: transform 2s, opacity 2s;
+	transition: transform 2s, opacity 2s;
 }
 
 .studioimg img:hover {
@@ -452,7 +468,7 @@ input:hover {
 	transition: 1s;
 }
 /*media for body*/
-@media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 1300px) {
 	.one:nth-child(2) {
 		margin-top: 200px;
 	}
